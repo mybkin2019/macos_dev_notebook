@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe" customClass="BindXibWithCustomClassView" customModule="MacosDevNotebook" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="545" height="685"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="e0c-zO-uS6" userLabel="contentView">
+                    <rect key="frame" x="0.0" y="0.0" width="545" height="685"/>
+                    <subviews>
+                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="wK1-Zk-vdm">
+                            <rect key="frame" x="18" y="520" width="509" height="145"/>
+                            <textFieldCell key="cell" selectable="YES" id="Vtl-Ow-Au9">
+                                <font key="font" metaFont="system" size="25"/>
+                                <string key="title">绑定Xib文件与CustomClass文件需要确定: 1. xib文件的fileOnwer不能指定 只能默认值 NSObject 2. CustomView 指定class为 对应的 BindXibWithCustomClassView 3. 开始拖拽 4. 实例化方法会走 initWithCoder</string>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3uT-84-fbz">
+                            <rect key="frame" x="242" y="13" width="62" height="32"/>
+                            <buttonCell key="cell" type="push" title="确定" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="U6r-PL-1fX">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="wK1-Zk-vdm" secondAttribute="trailing" constant="20" id="NJm-Ro-q6u"/>
+                        <constraint firstAttribute="bottom" secondItem="3uT-84-fbz" secondAttribute="bottom" constant="20" symbolic="YES" id="Ozx-gM-IVS"/>
+                        <constraint firstItem="wK1-Zk-vdm" firstAttribute="top" secondItem="e0c-zO-uS6" secondAttribute="top" constant="20" id="d1q-YW-KkL"/>
+                        <constraint firstItem="3uT-84-fbz" firstAttribute="centerX" secondItem="e0c-zO-uS6" secondAttribute="centerX" id="nzH-Gc-fMk"/>
+                        <constraint firstItem="wK1-Zk-vdm" firstAttribute="leading" secondItem="e0c-zO-uS6" secondAttribute="leading" constant="20" symbolic="YES" id="w7x-zp-rkg"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="e0c-zO-uS6" secondAttribute="trailing" id="HBh-Xk-QqN"/>
+                <constraint firstItem="e0c-zO-uS6" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="U3y-6W-H59"/>
+                <constraint firstAttribute="bottom" secondItem="e0c-zO-uS6" secondAttribute="bottom" id="kEf-89-juH"/>
+                <constraint firstItem="e0c-zO-uS6" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="oL0-Q7-51N"/>
+            </constraints>
+            <point key="canvasLocation" x="153" y="39"/>
+        </customView>
+    </objects>
+</document>

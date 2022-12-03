@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="AboutWindowWindowController" customModule="MacosDevNotebook" customModuleProvider="target">
+            <connections>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="3840" height="2135"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="222" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="CS7-bc-L8G">
+                        <rect key="frame" x="18" y="18" width="96" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="96" id="afn-64-ujQ"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="6em-RO-ZZM">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LhO-Go-z0R">
+                        <rect key="frame" x="125" y="11" width="86" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="72" id="XkI-h1-RsN"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="更改title" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Raz-Wg-Bru">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="onChangeWindowTitleBtnClicked:" target="-2" id="x9C-6s-QzI"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CS7-bc-L8G" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="18" id="3GJ-1w-hoT"/>
+                    <constraint firstItem="CS7-bc-L8G" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="18" id="P6X-xe-wzo"/>
+                    <constraint firstItem="LhO-Go-z0R" firstAttribute="firstBaseline" secondItem="CS7-bc-L8G" secondAttribute="firstBaseline" id="kM3-HA-WfZ"/>
+                    <constraint firstAttribute="bottom" secondItem="CS7-bc-L8G" secondAttribute="bottom" constant="18" id="lpl-8m-ewK"/>
+                    <constraint firstItem="LhO-Go-z0R" firstAttribute="leading" secondItem="CS7-bc-L8G" secondAttribute="trailing" constant="18" id="sFK-N4-IlU"/>
+                    <constraint firstAttribute="trailing" secondItem="LhO-Go-z0R" secondAttribute="trailing" constant="18" id="vVE-qM-k2T"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="48" y="144"/>
+        </window>
+    </objects>
+</document>

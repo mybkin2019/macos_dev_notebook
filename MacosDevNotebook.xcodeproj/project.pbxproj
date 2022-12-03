@@ -7,19 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014CE76A293B79E400653EA7 /* PopoverTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CE768293B79E400653EA7 /* PopoverTipsViewController.swift */; };
+		014CE76B293B79E400653EA7 /* PopoverTipsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014CE769293B79E400653EA7 /* PopoverTipsViewController.xib */; };
+		014CE76F293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CE76D293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.swift */; };
+		014CE770293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014CE76E293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.xib */; };
+		014CE772293B893B00653EA7 /* MyBindTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CE771293B893B00653EA7 /* MyBindTableView.swift */; };
+		014CE774293B894900653EA7 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CE773293B894900653EA7 /* MyButton.swift */; };
+		0153A8592939FB22008C4398 /* RealmDBUsageWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0153A8572939FB22008C4398 /* RealmDBUsageWindowController.swift */; };
+		0153A85A2939FB22008C4398 /* RealmDBUsageWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0153A8582939FB22008C4398 /* RealmDBUsageWindowController.xib */; };
+		0153A85C2939FBAB008C4398 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0153A85B2939FBAB008C4398 /* Person.swift */; };
+		0153A85F2939FDBC008C4398 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 0153A85E2939FDBC008C4398 /* Realm */; };
+		0153A8612939FDBC008C4398 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0153A8602939FDBC008C4398 /* RealmSwift */; };
+		0153A865293A6E5D008C4398 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0153A864293A6E5D008C4398 /* Dog.swift */; };
+		0198EB452937335300A039BA /* LoadViewFromXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198EB432937335300A039BA /* LoadViewFromXibViewController.swift */; };
+		0198EB462937335300A039BA /* LoadViewFromXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0198EB442937335300A039BA /* LoadViewFromXibViewController.xib */; };
+		0198EB48293745AE00A039BA /* BindXibWithCustomClassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0198EB47293745AE00A039BA /* BindXibWithCustomClassView.xib */; };
+		0198EB4C293745CC00A039BA /* BindXibWithCustomClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198EB4B293745CC00A039BA /* BindXibWithCustomClassView.swift */; };
+		0198EB652937798F00A039BA /* SandboxNetworkConnectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198EB632937798F00A039BA /* SandboxNetworkConnectionVC.swift */; };
+		0198EB662937798F00A039BA /* SandboxNetworkConnectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0198EB642937798F00A039BA /* SandboxNetworkConnectionVC.xib */; };
+		0198EBA82938A31F00A039BA /* CustomWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198EBA62938A31F00A039BA /* CustomWebView.swift */; };
+		0198EBA92938A31F00A039BA /* CustomWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0198EBA72938A31F00A039BA /* CustomWebView.xib */; };
 		01AD073D29197D9C006DE1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD073C29197D9C006DE1DC /* AppDelegate.swift */; };
 		01AD073F29197D9C006DE1DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD073E29197D9C006DE1DC /* ViewController.swift */; };
 		01AD074129197D9D006DE1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AD074029197D9D006DE1DC /* Assets.xcassets */; };
 		01AD074429197D9D006DE1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AD074229197D9D006DE1DC /* Main.storyboard */; };
+		01AD076E29198715006DE1DC /* ThemeShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD076D29198715006DE1DC /* ThemeShow.swift */; };
+		01E3ACF52934D9EF0087B02A /* AboutWindowWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3ACF32934D9EF0087B02A /* AboutWindowWindowController.swift */; };
+		01E3ACF62934D9EF0087B02A /* AboutWindowWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01E3ACF42934D9EF0087B02A /* AboutWindowWindowController.xib */; };
+		01E3ACF92934E4040087B02A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3ACF82934E4040087B02A /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		014CE768293B79E400653EA7 /* PopoverTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverTipsViewController.swift; sourceTree = "<group>"; };
+		014CE769293B79E400653EA7 /* PopoverTipsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopoverTipsViewController.xib; sourceTree = "<group>"; };
+		014CE76D293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneXibBindManyCustomClassFileVC.swift; sourceTree = "<group>"; };
+		014CE76E293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneXibBindManyCustomClassFileVC.xib; sourceTree = "<group>"; };
+		014CE771293B893B00653EA7 /* MyBindTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBindTableView.swift; sourceTree = "<group>"; };
+		014CE773293B894900653EA7 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		0153A8572939FB22008C4398 /* RealmDBUsageWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDBUsageWindowController.swift; sourceTree = "<group>"; };
+		0153A8582939FB22008C4398 /* RealmDBUsageWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RealmDBUsageWindowController.xib; sourceTree = "<group>"; };
+		0153A85B2939FBAB008C4398 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		0153A8622939FDCE008C4398 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0153A864293A6E5D008C4398 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		0198EB312936661000A039BA /* BUG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BUG.md; sourceTree = "<group>"; };
+		0198EB432937335300A039BA /* LoadViewFromXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewFromXibViewController.swift; sourceTree = "<group>"; };
+		0198EB442937335300A039BA /* LoadViewFromXibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadViewFromXibViewController.xib; sourceTree = "<group>"; };
+		0198EB47293745AE00A039BA /* BindXibWithCustomClassView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BindXibWithCustomClassView.xib; sourceTree = "<group>"; };
+		0198EB4B293745CC00A039BA /* BindXibWithCustomClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindXibWithCustomClassView.swift; sourceTree = "<group>"; };
+		0198EB632937798F00A039BA /* SandboxNetworkConnectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxNetworkConnectionVC.swift; sourceTree = "<group>"; };
+		0198EB642937798F00A039BA /* SandboxNetworkConnectionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SandboxNetworkConnectionVC.xib; sourceTree = "<group>"; };
+		0198EBA62938A31F00A039BA /* CustomWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWebView.swift; sourceTree = "<group>"; };
+		0198EBA72938A31F00A039BA /* CustomWebView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomWebView.xib; sourceTree = "<group>"; };
 		01AD073929197D9C006DE1DC /* MacosDevNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacosDevNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AD073C29197D9C006DE1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01AD073E29197D9C006DE1DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01AD074029197D9D006DE1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01AD074329197D9D006DE1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01AD074529197D9D006DE1DC /* MacosDevNotebook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacosDevNotebook.entitlements; sourceTree = "<group>"; };
+		01AD076D29198715006DE1DC /* ThemeShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeShow.swift; sourceTree = "<group>"; };
+		01E3ACF32934D9EF0087B02A /* AboutWindowWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWindowWindowController.swift; sourceTree = "<group>"; };
+		01E3ACF42934D9EF0087B02A /* AboutWindowWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutWindowWindowController.xib; sourceTree = "<group>"; };
+		01E3ACF72934DCD20087B02A /* Window相关.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Window相关.md"; sourceTree = "<group>"; };
+		01E3ACF82934E4040087B02A /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,15 +76,135 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0153A8612939FDBC008C4398 /* RealmSwift in Frameworks */,
+				0153A85F2939FDBC008C4398 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0141F859293B78CB00576108 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				014CE775293B8AC100653EA7 /* 显示窗口相关 */,
+				0141F85A293B78DB00576108 /* Popover */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0141F85A293B78DB00576108 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				014CE768293B79E400653EA7 /* PopoverTipsViewController.swift */,
+				014CE769293B79E400653EA7 /* PopoverTipsViewController.xib */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		014CE76C293B88B000653EA7 /* 同一个xib绑定多个customClass */ = {
+			isa = PBXGroup;
+			children = (
+				014CE76D293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.swift */,
+				014CE76E293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.xib */,
+				014CE771293B893B00653EA7 /* MyBindTableView.swift */,
+				014CE773293B894900653EA7 /* MyButton.swift */,
+			);
+			path = "同一个xib绑定多个customClass";
+			sourceTree = "<group>";
+		};
+		014CE775293B8AC100653EA7 /* 显示窗口相关 */ = {
+			isa = PBXGroup;
+			children = (
+				014CE777293B8AE900653EA7 /* WindowController */,
+				014CE776293B8ADD00653EA7 /* ViewController */,
+			);
+			path = "显示窗口相关";
+			sourceTree = "<group>";
+		};
+		014CE776293B8ADD00653EA7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		014CE777293B8AE900653EA7 /* WindowController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WindowController;
+			sourceTree = "<group>";
+		};
+		0153A8512939FAC5008C4398 /* 数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				0153A867293B23D2008C4398 /* GRDB */,
+				0153A8522939FAD5008C4398 /* Realm_Mongodb */,
+			);
+			path = "数据库";
+			sourceTree = "<group>";
+		};
+		0153A8522939FAD5008C4398 /* Realm_Mongodb */ = {
+			isa = PBXGroup;
+			children = (
+				0153A8572939FB22008C4398 /* RealmDBUsageWindowController.swift */,
+				0153A8582939FB22008C4398 /* RealmDBUsageWindowController.xib */,
+				0153A864293A6E5D008C4398 /* Dog.swift */,
+				0153A85B2939FBAB008C4398 /* Person.swift */,
+				0153A8622939FDCE008C4398 /* README.md */,
+			);
+			path = Realm_Mongodb;
+			sourceTree = "<group>";
+		};
+		0153A867293B23D2008C4398 /* GRDB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GRDB;
+			sourceTree = "<group>";
+		};
+		019393A7293B71A3007DCE75 /* StoryBoardXib文件BUG */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "StoryBoardXib文件BUG";
+			sourceTree = "<group>";
+		};
+		0198EB422937332E00A039BA /* Xib加载问题 */ = {
+			isa = PBXGroup;
+			children = (
+				014CE76C293B88B000653EA7 /* 同一个xib绑定多个customClass */,
+				0198EB432937335300A039BA /* LoadViewFromXibViewController.swift */,
+				0198EB442937335300A039BA /* LoadViewFromXibViewController.xib */,
+				0198EB4B293745CC00A039BA /* BindXibWithCustomClassView.swift */,
+				0198EB47293745AE00A039BA /* BindXibWithCustomClassView.xib */,
+			);
+			path = "Xib加载问题";
+			sourceTree = "<group>";
+		};
+		0198EB622937795B00A039BA /* 网络问题 */ = {
+			isa = PBXGroup;
+			children = (
+				0198EB632937798F00A039BA /* SandboxNetworkConnectionVC.swift */,
+				0198EB642937798F00A039BA /* SandboxNetworkConnectionVC.xib */,
+			);
+			path = "网络问题";
+			sourceTree = "<group>";
+		};
+		0198EBA52938A2F900A039BA /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				0198EBA62938A31F00A039BA /* CustomWebView.swift */,
+				0198EBA72938A31F00A039BA /* CustomWebView.xib */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
 		01AD073029197D9C006DE1DC = {
 			isa = PBXGroup;
 			children = (
+				01AD076D29198715006DE1DC /* ThemeShow.swift */,
 				01AD073B29197D9C006DE1DC /* MacosDevNotebook */,
 				01AD073A29197D9C006DE1DC /* Products */,
 			);
@@ -52,13 +221,32 @@
 		01AD073B29197D9C006DE1DC /* MacosDevNotebook */ = {
 			isa = PBXGroup;
 			children = (
+				0141F859293B78CB00576108 /* UI */,
+				019393A7293B71A3007DCE75 /* StoryBoardXib文件BUG */,
+				0153A8512939FAC5008C4398 /* 数据库 */,
+				0198EBA52938A2F900A039BA /* URL */,
+				0198EB622937795B00A039BA /* 网络问题 */,
+				0198EB422937332E00A039BA /* Xib加载问题 */,
+				01E3ACF22934D9CA0087B02A /* Window */,
 				01AD073C29197D9C006DE1DC /* AppDelegate.swift */,
 				01AD073E29197D9C006DE1DC /* ViewController.swift */,
 				01AD074029197D9D006DE1DC /* Assets.xcassets */,
 				01AD074229197D9D006DE1DC /* Main.storyboard */,
 				01AD074529197D9D006DE1DC /* MacosDevNotebook.entitlements */,
+				01E3ACF82934E4040087B02A /* Logger.swift */,
+				0198EB312936661000A039BA /* BUG.md */,
 			);
 			path = MacosDevNotebook;
+			sourceTree = "<group>";
+		};
+		01E3ACF22934D9CA0087B02A /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				01E3ACF32934D9EF0087B02A /* AboutWindowWindowController.swift */,
+				01E3ACF42934D9EF0087B02A /* AboutWindowWindowController.xib */,
+				01E3ACF72934DCD20087B02A /* Window相关.md */,
+			);
+			path = Window;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +265,10 @@
 			dependencies = (
 			);
 			name = MacosDevNotebook;
+			packageProductDependencies = (
+				0153A85E2939FDBC008C4398 /* Realm */,
+				0153A8602939FDBC008C4398 /* RealmSwift */,
+			);
 			productName = MacosDevNotebook;
 			productReference = 01AD073929197D9C006DE1DC /* MacosDevNotebook.app */;
 			productType = "com.apple.product-type.application";
@@ -105,6 +297,9 @@
 				Base,
 			);
 			mainGroup = 01AD073029197D9C006DE1DC;
+			packageReferences = (
+				0153A85D2939FDBC008C4398 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 01AD073A29197D9C006DE1DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -119,8 +314,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0198EB48293745AE00A039BA /* BindXibWithCustomClassView.xib in Resources */,
+				014CE770293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.xib in Resources */,
+				0198EB662937798F00A039BA /* SandboxNetworkConnectionVC.xib in Resources */,
+				0153A85A2939FB22008C4398 /* RealmDBUsageWindowController.xib in Resources */,
+				014CE76B293B79E400653EA7 /* PopoverTipsViewController.xib in Resources */,
 				01AD074129197D9D006DE1DC /* Assets.xcassets in Resources */,
+				0198EB462937335300A039BA /* LoadViewFromXibViewController.xib in Resources */,
 				01AD074429197D9D006DE1DC /* Main.storyboard in Resources */,
+				0198EBA92938A31F00A039BA /* CustomWebView.xib in Resources */,
+				01E3ACF62934D9EF0087B02A /* AboutWindowWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +335,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				01AD073F29197D9C006DE1DC /* ViewController.swift in Sources */,
+				014CE76F293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.swift in Sources */,
+				01E3ACF92934E4040087B02A /* Logger.swift in Sources */,
+				0153A865293A6E5D008C4398 /* Dog.swift in Sources */,
+				0198EB652937798F00A039BA /* SandboxNetworkConnectionVC.swift in Sources */,
+				0153A8592939FB22008C4398 /* RealmDBUsageWindowController.swift in Sources */,
+				0153A85C2939FBAB008C4398 /* Person.swift in Sources */,
+				014CE76A293B79E400653EA7 /* PopoverTipsViewController.swift in Sources */,
+				0198EB4C293745CC00A039BA /* BindXibWithCustomClassView.swift in Sources */,
+				01E3ACF52934D9EF0087B02A /* AboutWindowWindowController.swift in Sources */,
+				01AD076E29198715006DE1DC /* ThemeShow.swift in Sources */,
+				014CE774293B894900653EA7 /* MyButton.swift in Sources */,
 				01AD073D29197D9C006DE1DC /* AppDelegate.swift in Sources */,
+				0198EB452937335300A039BA /* LoadViewFromXibViewController.swift in Sources */,
+				0198EBA82938A31F00A039BA /* CustomWebView.swift in Sources */,
+				014CE772293B893B00653EA7 /* MyBindTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +486,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MacosDevNotebook/MacosDevNotebook.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8NRT6H3C5H;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -282,6 +501,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wxrj.MacosDevNotebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,12 +516,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MacosDevNotebook/MacosDevNotebook.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8NRT6H3C5H;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -309,6 +531,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wxrj.MacosDevNotebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,6 +562,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0153A85D2939FDBC008C4398 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0153A85E2939FDBC008C4398 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0153A85D2939FDBC008C4398 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		0153A8602939FDBC008C4398 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0153A85D2939FDBC008C4398 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 01AD073129197D9C006DE1DC /* Project object */;
 }
