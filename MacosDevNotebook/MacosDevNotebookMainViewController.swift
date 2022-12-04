@@ -38,6 +38,13 @@ class MacosDevNotebookMainViewController: NSViewController {
         wc.showWindow(nil)
     }
     
+    private var unexpectedBUGWindowController: UnexpectedBUGWIndowController?
+    @IBAction func onClickedUnexpectedBUGBtnAction(_ sender: Any) {
+        let wc = UnexpectedBUGWIndowController(windowNibName: "UnexpectedBUGWIndowController")
+        unexpectedBUGWindowController = wc
+        wc.showWindow(nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -823,14 +823,44 @@
                                     <constraint firstAttribute="width" constant="250" id="iZz-J4-Xp2"/>
                                 </constraints>
                             </box>
+                            <box title="意外BUG" translatesAutoresizingMaskIntoConstraints="NO" id="11b-Hq-K7S">
+                                <rect key="frame" x="556" y="15" width="256" height="571"/>
+                                <view key="contentView" id="HYj-3T-tUl">
+                                    <rect key="frame" x="3" y="3" width="250" height="553"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cLG-bq-wlu">
+                                            <rect key="frame" x="13" y="507" width="140" height="32"/>
+                                            <buttonCell key="cell" type="push" title="意外BUG: return;" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="uC6-0t-qbN">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="onClickedUnexpectedBUGBtnAction:" target="XfG-lQ-9wD" id="05A-R4-OM2"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="cLG-bq-wlu" firstAttribute="leading" secondItem="HYj-3T-tUl" secondAttribute="leading" constant="20" symbolic="YES" id="21l-gU-F7i"/>
+                                        <constraint firstItem="cLG-bq-wlu" firstAttribute="top" secondItem="HYj-3T-tUl" secondAttribute="top" constant="20" symbolic="YES" id="RGF-qY-1fg"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Wlt-5W-pkO"/>
+                                </constraints>
+                                <font key="titleFont" size="11" name=".PingFangSC-Regular"/>
+                            </box>
                         </subviews>
                         <constraints>
                             <constraint firstItem="k73-CO-Nqq" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="4rK-bo-wTO"/>
+                            <constraint firstItem="11b-Hq-K7S" firstAttribute="leading" secondItem="LNC-Va-LL6" secondAttribute="trailing" constant="19" id="Fau-Kw-QJI"/>
                             <constraint firstAttribute="bottom" secondItem="nei-rD-I8e" secondAttribute="bottom" constant="20" id="IWi-j4-UGh"/>
+                            <constraint firstItem="11b-Hq-K7S" firstAttribute="bottom" secondItem="LNC-Va-LL6" secondAttribute="bottom" id="R0N-PJ-Djk"/>
                             <constraint firstItem="nei-rD-I8e" firstAttribute="top" secondItem="k73-CO-Nqq" secondAttribute="top" id="TlM-fY-iw5"/>
                             <constraint firstItem="k73-CO-Nqq" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" symbolic="YES" id="gLO-t5-Jlw"/>
                             <constraint firstItem="nei-rD-I8e" firstAttribute="leading" secondItem="k73-CO-Nqq" secondAttribute="trailing" constant="20" id="gMw-lb-oxb"/>
                             <constraint firstAttribute="bottom" secondItem="k73-CO-Nqq" secondAttribute="bottom" constant="20" id="ops-ML-oHw"/>
+                            <constraint firstItem="11b-Hq-K7S" firstAttribute="top" secondItem="k73-CO-Nqq" secondAttribute="top" id="ttt-33-m6w"/>
                         </constraints>
                     </view>
                 </viewController>
