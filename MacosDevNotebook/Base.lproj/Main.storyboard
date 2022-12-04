@@ -703,10 +703,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--View Controller-->
+        <!--Macos Dev Notebook Main View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="MacosDevNotebook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="MacosDevNotebookMainViewController" customModule="MacosDevNotebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="829" height="606"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -733,9 +733,6 @@
                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                 <font key="font" metaFont="system"/>
                                             </buttonCell>
-                                            <connections>
-                                                <action selector="onNewWindowBtnClicked:" target="XfG-lQ-9wD" id="XB5-mg-Knc"/>
-                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -756,42 +753,66 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DaY-3h-crE">
-                                            <rect key="frame" x="13" y="505" width="154" height="32"/>
+                                            <rect key="frame" x="13" y="505" width="152" height="32"/>
                                             <buttonCell key="cell" type="push" title="显示ViewController" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hJA-IU-eMj">
                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                                <font key="font" metaFont="system"/>
                                             </buttonCell>
                                         </button>
                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Tsp-vm-FI4">
                                             <rect key="frame" x="13" y="473" width="172" height="32"/>
                                             <buttonCell key="cell" type="push" title="显示WindowController" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1bw-Uw-GmN">
                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                                <font key="font" metaFont="system"/>
                                             </buttonCell>
                                         </button>
                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Wlp-oy-N7t">
                                             <rect key="frame" x="13" y="441" width="112" height="32"/>
                                             <buttonCell key="cell" type="push" title="显示Popover" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="lXa-oE-UE8">
                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                                <font key="font" metaFont="system"/>
                                             </buttonCell>
                                         </button>
                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="u34-cj-bnM">
-                                            <rect key="frame" x="13" y="409" width="168" height="32"/>
+                                            <rect key="frame" x="13" y="409" width="170" height="32"/>
                                             <buttonCell key="cell" type="push" title="同一xib绑定多个Class" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bdv-35-pRD">
                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                                <font key="font" metaFont="system"/>
                                             </buttonCell>
                                             <connections>
                                                 <action selector="onClickedShowOneXibBindManyCustomClassAndViewBtnAction:" target="XfG-lQ-9wD" id="vpR-cs-A0J"/>
                                             </connections>
                                         </button>
+                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UXg-xw-GA3">
+                                            <rect key="frame" x="13" y="377" width="156" height="32"/>
+                                            <buttonCell key="cell" type="push" title="纯代码NSTableView" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="rF7-zF-o0p">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="onClickedPureInCodeCreateNSTableViewBtnAction:" target="XfG-lQ-9wD" id="pxr-om-hHH"/>
+                                            </connections>
+                                        </button>
+                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6hw-iP-0uS">
+                                            <rect key="frame" x="13" y="345" width="180" height="32"/>
+                                            <buttonCell key="cell" type="push" title="WC中使用VC的present" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ipx-mR-vEB">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="onClickedPresentVCInWindowControllerBtnAction:" target="XfG-lQ-9wD" id="tSm-Od-AYN"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="6hw-iP-0uS" firstAttribute="top" secondItem="UXg-xw-GA3" secondAttribute="bottom" constant="12" symbolic="YES" id="0bc-bN-mrS"/>
+                                        <constraint firstItem="UXg-xw-GA3" firstAttribute="top" secondItem="u34-cj-bnM" secondAttribute="bottom" constant="12" symbolic="YES" id="87b-ur-tTh"/>
                                         <constraint firstItem="Wlp-oy-N7t" firstAttribute="leading" secondItem="Tsp-vm-FI4" secondAttribute="leading" id="ESK-dI-qpK"/>
+                                        <constraint firstItem="UXg-xw-GA3" firstAttribute="leading" secondItem="u34-cj-bnM" secondAttribute="leading" id="FID-vq-eeL"/>
                                         <constraint firstItem="u34-cj-bnM" firstAttribute="top" secondItem="Wlp-oy-N7t" secondAttribute="bottom" constant="12" symbolic="YES" id="TQ1-nT-ZAc"/>
                                         <constraint firstItem="DaY-3h-crE" firstAttribute="top" secondItem="LNC-Va-LL6" secondAttribute="top" constant="20" symbolic="YES" id="UZ4-XB-YlB"/>
                                         <constraint firstItem="Tsp-vm-FI4" firstAttribute="leading" secondItem="DaY-3h-crE" secondAttribute="leading" id="UmL-TW-3Ge"/>
+                                        <constraint firstItem="6hw-iP-0uS" firstAttribute="leading" secondItem="UXg-xw-GA3" secondAttribute="leading" id="ahK-l9-nHO"/>
                                         <constraint firstItem="Wlp-oy-N7t" firstAttribute="top" secondItem="Tsp-vm-FI4" secondAttribute="bottom" constant="12" symbolic="YES" id="e3I-wF-c1x"/>
                                         <constraint firstItem="u34-cj-bnM" firstAttribute="leading" secondItem="Wlp-oy-N7t" secondAttribute="leading" id="gg0-wa-Vth"/>
                                         <constraint firstItem="Tsp-vm-FI4" firstAttribute="top" secondItem="DaY-3h-crE" secondAttribute="bottom" constant="12" symbolic="YES" id="jQf-bM-lGc"/>
@@ -815,7 +836,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="249.5" y="823"/>
+            <point key="canvasLocation" x="43" y="921"/>
         </scene>
     </scenes>
 </document>

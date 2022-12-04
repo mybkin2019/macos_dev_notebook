@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0144AABE293C435D0037F823 /* CustomPureInCodeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0144AABD293C435D0037F823 /* CustomPureInCodeTableView.swift */; };
+		0144AAC1293C43A60037F823 /* CustomTableViewWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0144AABF293C43A60037F823 /* CustomTableViewWindowController.swift */; };
+		0144AAC2293C43A60037F823 /* CustomTableViewWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0144AAC0293C43A60037F823 /* CustomTableViewWindowController.xib */; };
 		014CE76A293B79E400653EA7 /* PopoverTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CE768293B79E400653EA7 /* PopoverTipsViewController.swift */; };
 		014CE76B293B79E400653EA7 /* PopoverTipsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014CE769293B79E400653EA7 /* PopoverTipsViewController.xib */; };
 		014CE76F293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CE76D293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.swift */; };
@@ -25,19 +28,28 @@
 		0198EB4C293745CC00A039BA /* BindXibWithCustomClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198EB4B293745CC00A039BA /* BindXibWithCustomClassView.swift */; };
 		0198EB652937798F00A039BA /* SandboxNetworkConnectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198EB632937798F00A039BA /* SandboxNetworkConnectionVC.swift */; };
 		0198EB662937798F00A039BA /* SandboxNetworkConnectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0198EB642937798F00A039BA /* SandboxNetworkConnectionVC.xib */; };
-		0198EBA82938A31F00A039BA /* CustomWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198EBA62938A31F00A039BA /* CustomWebView.swift */; };
-		0198EBA92938A31F00A039BA /* CustomWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0198EBA72938A31F00A039BA /* CustomWebView.xib */; };
+		0198EBA82938A31F00A039BA /* CustomWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198EBA62938A31F00A039BA /* CustomWebViewViewController.swift */; };
+		0198EBA92938A31F00A039BA /* CustomWebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0198EBA72938A31F00A039BA /* CustomWebViewViewController.xib */; };
 		01AD073D29197D9C006DE1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD073C29197D9C006DE1DC /* AppDelegate.swift */; };
-		01AD073F29197D9C006DE1DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD073E29197D9C006DE1DC /* ViewController.swift */; };
+		01AD073F29197D9C006DE1DC /* MacosDevNotebookMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD073E29197D9C006DE1DC /* MacosDevNotebookMainViewController.swift */; };
 		01AD074129197D9D006DE1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AD074029197D9D006DE1DC /* Assets.xcassets */; };
 		01AD074429197D9D006DE1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AD074229197D9D006DE1DC /* Main.storyboard */; };
 		01AD076E29198715006DE1DC /* ThemeShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD076D29198715006DE1DC /* ThemeShow.swift */; };
+		01B64B17293C524000BFA31C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 01B64B16293C524000BFA31C /* SnapKit */; };
+		01B64B1B293C56AF00BFA31C /* UseViewControllerPresentationInWCWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B64B19293C56AF00BFA31C /* UseViewControllerPresentationInWCWindowController.swift */; };
+		01B64B1C293C56AF00BFA31C /* UseViewControllerPresentationInWCWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B64B1A293C56AF00BFA31C /* UseViewControllerPresentationInWCWindowController.xib */; };
+		01B64B1F293C58B300BFA31C /* ForPresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B64B1D293C58B300BFA31C /* ForPresentViewController.swift */; };
+		01B64B20293C58B300BFA31C /* ForPresentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B64B1E293C58B300BFA31C /* ForPresentViewController.xib */; };
+		01B64B22293C61DB00BFA31C /* MyCustomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B64B21293C61DB00BFA31C /* MyCustomAnimator.swift */; };
 		01E3ACF52934D9EF0087B02A /* AboutWindowWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3ACF32934D9EF0087B02A /* AboutWindowWindowController.swift */; };
 		01E3ACF62934D9EF0087B02A /* AboutWindowWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01E3ACF42934D9EF0087B02A /* AboutWindowWindowController.xib */; };
 		01E3ACF92934E4040087B02A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3ACF82934E4040087B02A /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0144AABD293C435D0037F823 /* CustomPureInCodeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPureInCodeTableView.swift; sourceTree = "<group>"; };
+		0144AABF293C43A60037F823 /* CustomTableViewWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewWindowController.swift; sourceTree = "<group>"; };
+		0144AAC0293C43A60037F823 /* CustomTableViewWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewWindowController.xib; sourceTree = "<group>"; };
 		014CE768293B79E400653EA7 /* PopoverTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverTipsViewController.swift; sourceTree = "<group>"; };
 		014CE769293B79E400653EA7 /* PopoverTipsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopoverTipsViewController.xib; sourceTree = "<group>"; };
 		014CE76D293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneXibBindManyCustomClassFileVC.swift; sourceTree = "<group>"; };
@@ -56,15 +68,20 @@
 		0198EB4B293745CC00A039BA /* BindXibWithCustomClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindXibWithCustomClassView.swift; sourceTree = "<group>"; };
 		0198EB632937798F00A039BA /* SandboxNetworkConnectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxNetworkConnectionVC.swift; sourceTree = "<group>"; };
 		0198EB642937798F00A039BA /* SandboxNetworkConnectionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SandboxNetworkConnectionVC.xib; sourceTree = "<group>"; };
-		0198EBA62938A31F00A039BA /* CustomWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWebView.swift; sourceTree = "<group>"; };
-		0198EBA72938A31F00A039BA /* CustomWebView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomWebView.xib; sourceTree = "<group>"; };
+		0198EBA62938A31F00A039BA /* CustomWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWebViewViewController.swift; sourceTree = "<group>"; };
+		0198EBA72938A31F00A039BA /* CustomWebViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomWebViewViewController.xib; sourceTree = "<group>"; };
 		01AD073929197D9C006DE1DC /* MacosDevNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacosDevNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AD073C29197D9C006DE1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01AD073E29197D9C006DE1DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01AD073E29197D9C006DE1DC /* MacosDevNotebookMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacosDevNotebookMainViewController.swift; sourceTree = "<group>"; };
 		01AD074029197D9D006DE1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01AD074329197D9D006DE1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01AD074529197D9D006DE1DC /* MacosDevNotebook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacosDevNotebook.entitlements; sourceTree = "<group>"; };
 		01AD076D29198715006DE1DC /* ThemeShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeShow.swift; sourceTree = "<group>"; };
+		01B64B19293C56AF00BFA31C /* UseViewControllerPresentationInWCWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseViewControllerPresentationInWCWindowController.swift; sourceTree = "<group>"; };
+		01B64B1A293C56AF00BFA31C /* UseViewControllerPresentationInWCWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UseViewControllerPresentationInWCWindowController.xib; sourceTree = "<group>"; };
+		01B64B1D293C58B300BFA31C /* ForPresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForPresentViewController.swift; sourceTree = "<group>"; };
+		01B64B1E293C58B300BFA31C /* ForPresentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForPresentViewController.xib; sourceTree = "<group>"; };
+		01B64B21293C61DB00BFA31C /* MyCustomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomAnimator.swift; sourceTree = "<group>"; };
 		01E3ACF32934D9EF0087B02A /* AboutWindowWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWindowWindowController.swift; sourceTree = "<group>"; };
 		01E3ACF42934D9EF0087B02A /* AboutWindowWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutWindowWindowController.xib; sourceTree = "<group>"; };
 		01E3ACF72934DCD20087B02A /* Window相关.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Window相关.md"; sourceTree = "<group>"; };
@@ -76,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B64B17293C524000BFA31C /* SnapKit in Frameworks */,
 				0153A8612939FDBC008C4398 /* RealmSwift in Frameworks */,
 				0153A85F2939FDBC008C4398 /* Realm in Frameworks */,
 			);
@@ -87,6 +105,7 @@
 		0141F859293B78CB00576108 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				0144AABC293C40740037F823 /* NSTableView */,
 				014CE775293B8AC100653EA7 /* 显示窗口相关 */,
 				0141F85A293B78DB00576108 /* Popover */,
 			);
@@ -100,6 +119,16 @@
 				014CE769293B79E400653EA7 /* PopoverTipsViewController.xib */,
 			);
 			path = Popover;
+			sourceTree = "<group>";
+		};
+		0144AABC293C40740037F823 /* NSTableView */ = {
+			isa = PBXGroup;
+			children = (
+				0144AABD293C435D0037F823 /* CustomPureInCodeTableView.swift */,
+				0144AABF293C43A60037F823 /* CustomTableViewWindowController.swift */,
+				0144AAC0293C43A60037F823 /* CustomTableViewWindowController.xib */,
+			);
+			path = NSTableView;
 			sourceTree = "<group>";
 		};
 		014CE76C293B88B000653EA7 /* 同一个xib绑定多个customClass */ = {
@@ -125,6 +154,7 @@
 		014CE776293B8ADD00653EA7 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				01B64B21293C61DB00BFA31C /* MyCustomAnimator.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -132,6 +162,7 @@
 		014CE777293B8AE900653EA7 /* WindowController */ = {
 			isa = PBXGroup;
 			children = (
+				01B64B18293C567400BFA31C /* 在WindowController使用ViewController显示方式 */,
 			);
 			path = WindowController;
 			sourceTree = "<group>";
@@ -195,8 +226,8 @@
 		0198EBA52938A2F900A039BA /* URL */ = {
 			isa = PBXGroup;
 			children = (
-				0198EBA62938A31F00A039BA /* CustomWebView.swift */,
-				0198EBA72938A31F00A039BA /* CustomWebView.xib */,
+				0198EBA62938A31F00A039BA /* CustomWebViewViewController.swift */,
+				0198EBA72938A31F00A039BA /* CustomWebViewViewController.xib */,
 			);
 			path = URL;
 			sourceTree = "<group>";
@@ -229,7 +260,7 @@
 				0198EB422937332E00A039BA /* Xib加载问题 */,
 				01E3ACF22934D9CA0087B02A /* Window */,
 				01AD073C29197D9C006DE1DC /* AppDelegate.swift */,
-				01AD073E29197D9C006DE1DC /* ViewController.swift */,
+				01AD073E29197D9C006DE1DC /* MacosDevNotebookMainViewController.swift */,
 				01AD074029197D9D006DE1DC /* Assets.xcassets */,
 				01AD074229197D9D006DE1DC /* Main.storyboard */,
 				01AD074529197D9D006DE1DC /* MacosDevNotebook.entitlements */,
@@ -237,6 +268,17 @@
 				0198EB312936661000A039BA /* BUG.md */,
 			);
 			path = MacosDevNotebook;
+			sourceTree = "<group>";
+		};
+		01B64B18293C567400BFA31C /* 在WindowController使用ViewController显示方式 */ = {
+			isa = PBXGroup;
+			children = (
+				01B64B19293C56AF00BFA31C /* UseViewControllerPresentationInWCWindowController.swift */,
+				01B64B1A293C56AF00BFA31C /* UseViewControllerPresentationInWCWindowController.xib */,
+				01B64B1D293C58B300BFA31C /* ForPresentViewController.swift */,
+				01B64B1E293C58B300BFA31C /* ForPresentViewController.xib */,
+			);
+			path = "在WindowController使用ViewController显示方式";
 			sourceTree = "<group>";
 		};
 		01E3ACF22934D9CA0087B02A /* Window */ = {
@@ -268,6 +310,7 @@
 			packageProductDependencies = (
 				0153A85E2939FDBC008C4398 /* Realm */,
 				0153A8602939FDBC008C4398 /* RealmSwift */,
+				01B64B16293C524000BFA31C /* SnapKit */,
 			);
 			productName = MacosDevNotebook;
 			productReference = 01AD073929197D9C006DE1DC /* MacosDevNotebook.app */;
@@ -299,6 +342,7 @@
 			mainGroup = 01AD073029197D9C006DE1DC;
 			packageReferences = (
 				0153A85D2939FDBC008C4398 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				01B64B15293C524000BFA31C /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 01AD073A29197D9C006DE1DC /* Products */;
 			projectDirPath = "";
@@ -318,12 +362,15 @@
 				014CE770293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.xib in Resources */,
 				0198EB662937798F00A039BA /* SandboxNetworkConnectionVC.xib in Resources */,
 				0153A85A2939FB22008C4398 /* RealmDBUsageWindowController.xib in Resources */,
+				0144AAC2293C43A60037F823 /* CustomTableViewWindowController.xib in Resources */,
 				014CE76B293B79E400653EA7 /* PopoverTipsViewController.xib in Resources */,
 				01AD074129197D9D006DE1DC /* Assets.xcassets in Resources */,
+				01B64B1C293C56AF00BFA31C /* UseViewControllerPresentationInWCWindowController.xib in Resources */,
 				0198EB462937335300A039BA /* LoadViewFromXibViewController.xib in Resources */,
 				01AD074429197D9D006DE1DC /* Main.storyboard in Resources */,
-				0198EBA92938A31F00A039BA /* CustomWebView.xib in Resources */,
+				0198EBA92938A31F00A039BA /* CustomWebViewViewController.xib in Resources */,
 				01E3ACF62934D9EF0087B02A /* AboutWindowWindowController.xib in Resources */,
+				01B64B20293C58B300BFA31C /* ForPresentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +381,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AD073F29197D9C006DE1DC /* ViewController.swift in Sources */,
+				01B64B1F293C58B300BFA31C /* ForPresentViewController.swift in Sources */,
+				01AD073F29197D9C006DE1DC /* MacosDevNotebookMainViewController.swift in Sources */,
 				014CE76F293B88D300653EA7 /* OneXibBindManyCustomClassFileVC.swift in Sources */,
 				01E3ACF92934E4040087B02A /* Logger.swift in Sources */,
 				0153A865293A6E5D008C4398 /* Dog.swift in Sources */,
@@ -345,10 +393,14 @@
 				0198EB4C293745CC00A039BA /* BindXibWithCustomClassView.swift in Sources */,
 				01E3ACF52934D9EF0087B02A /* AboutWindowWindowController.swift in Sources */,
 				01AD076E29198715006DE1DC /* ThemeShow.swift in Sources */,
+				0144AABE293C435D0037F823 /* CustomPureInCodeTableView.swift in Sources */,
+				01B64B22293C61DB00BFA31C /* MyCustomAnimator.swift in Sources */,
 				014CE774293B894900653EA7 /* MyButton.swift in Sources */,
 				01AD073D29197D9C006DE1DC /* AppDelegate.swift in Sources */,
+				01B64B1B293C56AF00BFA31C /* UseViewControllerPresentationInWCWindowController.swift in Sources */,
+				0144AAC1293C43A60037F823 /* CustomTableViewWindowController.swift in Sources */,
 				0198EB452937335300A039BA /* LoadViewFromXibViewController.swift in Sources */,
-				0198EBA82938A31F00A039BA /* CustomWebView.swift in Sources */,
+				0198EBA82938A31F00A039BA /* CustomWebViewViewController.swift in Sources */,
 				014CE772293B893B00653EA7 /* MyBindTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,6 +624,14 @@
 				kind = branch;
 			};
 		};
+		01B64B15293C524000BFA31C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -584,6 +644,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0153A85D2939FDBC008C4398 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
+		};
+		01B64B16293C524000BFA31C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01B64B15293C524000BFA31C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

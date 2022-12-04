@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="UseViewControllerPresentationInWCWindowController" customModule="MacosDevNotebook" customModuleProvider="target">
+            <connections>
+                <outlet property="boxView" destination="VRO-0Z-DZ0" id="4nZ-QT-6Ki"/>
+                <outlet property="myContentViewController" destination="sln-nU-szg" id="0aC-aX-PPH"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" separatorStyle="none" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="529" height="338"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="3840" height="2135"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="529" height="338"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <box title="通过view controller present" translatesAutoresizingMaskIntoConstraints="NO" id="VRO-0Z-DZ0">
+                        <rect key="frame" x="17" y="16" width="495" height="302"/>
+                        <view key="contentView" id="4GS-g6-bHf">
+                            <rect key="frame" x="3" y="3" width="489" height="284"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eiE-om-Lgm">
+                                    <rect key="frame" x="13" y="238" width="86" height="32"/>
+                                    <buttonCell key="cell" type="push" title="AsSheet" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="QjZ-yA-L0X">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="onClickedPresentAsSheetNewViewControllerInWindowControllerBtnAction:" target="-2" id="alK-IB-zlJ"/>
+                                    </connections>
+                                </button>
+                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cT8-yp-iYD">
+                                    <rect key="frame" x="13" y="206" width="88" height="32"/>
+                                    <buttonCell key="cell" type="push" title="AsModal" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="arF-6f-Egt">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="onClickedPresentAsModelNewViewControllerBtnAction:" target="-2" id="mJL-7m-pXk"/>
+                                    </connections>
+                                </button>
+                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9V5-Ny-Vjo">
+                                    <rect key="frame" x="13" y="174" width="118" height="32"/>
+                                    <buttonCell key="cell" type="push" title="WithAnimator" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ZWu-wt-oWb">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="onClickedPresentWithCustomAnimatorBtnAction:" target="-2" id="trL-ay-rDY"/>
+                                    </connections>
+                                </button>
+                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hYz-Fb-oc3">
+                                    <rect key="frame" x="13" y="142" width="106" height="32"/>
+                                    <buttonCell key="cell" type="push" title="PopRelative" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dTj-39-pae">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="onClickedPopRelativePresentBtnAction:" target="-2" id="5A7-R4-Tea"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="hYz-Fb-oc3" firstAttribute="leading" secondItem="9V5-Ny-Vjo" secondAttribute="leading" id="1pg-SW-IIC"/>
+                                <constraint firstItem="cT8-yp-iYD" firstAttribute="leading" secondItem="eiE-om-Lgm" secondAttribute="leading" id="MyA-gs-8jF"/>
+                                <constraint firstItem="9V5-Ny-Vjo" firstAttribute="leading" secondItem="cT8-yp-iYD" secondAttribute="leading" id="OiT-on-kiX"/>
+                                <constraint firstItem="cT8-yp-iYD" firstAttribute="top" secondItem="eiE-om-Lgm" secondAttribute="bottom" constant="12" symbolic="YES" id="adF-iW-oKL"/>
+                                <constraint firstItem="9V5-Ny-Vjo" firstAttribute="top" secondItem="cT8-yp-iYD" secondAttribute="bottom" constant="12" symbolic="YES" id="fhw-LD-UB4"/>
+                                <constraint firstItem="eiE-om-Lgm" firstAttribute="leading" secondItem="4GS-g6-bHf" secondAttribute="leading" constant="20" symbolic="YES" id="hMU-Up-L6A"/>
+                                <constraint firstItem="eiE-om-Lgm" firstAttribute="top" secondItem="4GS-g6-bHf" secondAttribute="top" constant="20" symbolic="YES" id="lNl-kC-4km"/>
+                                <constraint firstItem="hYz-Fb-oc3" firstAttribute="top" secondItem="9V5-Ny-Vjo" secondAttribute="bottom" constant="12" symbolic="YES" id="pOC-uc-Xcx"/>
+                            </constraints>
+                        </view>
+                        <font key="titleFont" size="11" name=".PingFangSC-Regular"/>
+                    </box>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VRO-0Z-DZ0" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="20" id="NFM-Lz-DSQ"/>
+                    <constraint firstAttribute="trailing" secondItem="VRO-0Z-DZ0" secondAttribute="trailing" constant="20" id="daX-Ps-p26"/>
+                    <constraint firstAttribute="bottom" secondItem="VRO-0Z-DZ0" secondAttribute="bottom" constant="20" id="gtM-NH-xWJ"/>
+                    <constraint firstItem="VRO-0Z-DZ0" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="20" id="tel-P3-8p5"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="-330.5" y="168"/>
+        </window>
+        <viewController id="sln-nU-szg">
+            <connections>
+                <outlet property="view" destination="se5-gp-TjO" id="VOk-qb-Qed"/>
+            </connections>
+        </viewController>
+    </objects>
+</document>

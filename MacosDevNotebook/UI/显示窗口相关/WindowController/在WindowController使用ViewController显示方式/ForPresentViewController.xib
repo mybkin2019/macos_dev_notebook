@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ForPresentViewController" customModule="MacosDevNotebook" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="50e-j3-XnL" id="Xtq-62-f2w"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="84"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="50e-j3-XnL" userLabel="Content View">
+                    <rect key="frame" x="0.0" y="0.0" width="379" height="84"/>
+                    <subviews>
+                        <stackView distribution="fill" orientation="vertical" alignment="centerX" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aqW-uT-gzi">
+                            <rect key="frame" x="20" y="20" width="339" height="44"/>
+                            <subviews>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="AbP-UW-ZKu">
+                                    <rect key="frame" x="-2" y="28" width="343" height="16"/>
+                                    <textFieldCell key="cell" lineBreakMode="clipping" title="此ViewController通过WindowController.contentVC展示" id="TH8-1Y-7wm">
+                                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="InE-5m-JHX">
+                                    <rect key="frame" x="133" y="-7" width="74" height="32"/>
+                                    <buttonCell key="cell" type="push" title="知道了" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8PI-1f-Omt">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="onClickedDismissBtnAction:" target="-2" id="GW2-8L-9bG"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="aqW-uT-gzi" firstAttribute="top" secondItem="50e-j3-XnL" secondAttribute="top" constant="20" id="bgr-UV-gXT"/>
+                        <constraint firstAttribute="bottom" secondItem="aqW-uT-gzi" secondAttribute="bottom" constant="20" id="p4N-DY-9Fg"/>
+                        <constraint firstAttribute="trailing" secondItem="aqW-uT-gzi" secondAttribute="trailing" constant="20" symbolic="YES" id="u6m-5f-VDb"/>
+                        <constraint firstItem="aqW-uT-gzi" firstAttribute="leading" secondItem="50e-j3-XnL" secondAttribute="leading" constant="20" symbolic="YES" id="yaR-Oo-qbT"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="50e-j3-XnL" secondAttribute="trailing" id="5rd-v2-OeP"/>
+                <constraint firstAttribute="bottom" secondItem="50e-j3-XnL" secondAttribute="bottom" id="6Gj-rA-LY4"/>
+                <constraint firstItem="50e-j3-XnL" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="Aaw-cy-uss"/>
+                <constraint firstItem="50e-j3-XnL" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="ckM-3Y-0XU"/>
+            </constraints>
+            <point key="canvasLocation" x="-404.5" y="-155"/>
+        </customView>
+    </objects>
+</document>

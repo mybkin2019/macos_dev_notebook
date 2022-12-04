@@ -8,7 +8,7 @@
 import Cocoa
 import WebKit
 
-class CustomWebView: NSViewController {
+class CustomWebViewViewController: NSViewController {
 
     @IBOutlet weak var webView: WKWebView!
     // 解决url string中含有中文 无法解析 url的问题
@@ -21,5 +21,4 @@ class CustomWebView: NSViewController {
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 5.0)
         webView.load(request)
     }
-    
 }
